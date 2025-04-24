@@ -1,3 +1,5 @@
+In this repository I'm storing a partial part of my project with Saarstahl on the subject of cutting-stock optimization. This notebook doesn't represent any close real data to the case but express a semi simplified version of the complex problem.
+
 This project optimizes the cutting of a rail (or similar material) to minimize waste and maximize the priority of the resulting pieces.  It takes into account customer demands for different types of rail pieces, each with a specified length, quantity, and priority.
 
 The core functionality involves generating all possible cutting patterns of the rail, considering constraints like total length, maximum waste allowed, and the available pieces of different types and sizes.  The generated patterns are then evaluated based on two key criteria: total waste material and total priority of the produced pieces.
